@@ -1,0 +1,21 @@
+{
+  "name": "supergulp",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building an awesome development environment",
+  "repository": "https://github.com/bril-liant/super-gulp",
+  "author": "bril-liant <brilliant.ysp@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/register": "^7.15.3",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-pug": "^5.0.0"
+  }
+}
